@@ -1,0 +1,115 @@
+@keyframes fadeIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 10;
+    }
+}
+.introduction {
+    font-family: serif;
+    color: red;
+    display: left;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    animation: fadeIn 3s ease-in forwards;
+    font-weight: bold;
+  
+}
+
+.image{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    bottom: 50px;
+    animation: animate 13s linear infinite;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px 10px rgba(0, 0, 0);
+    margin-bottom: 200px;
+
+}
+@keyframes animate {
+    0% {
+        background-image: url(images/css.png);
+    }
+    25% {
+        background-image: url(images/html.jpg);
+    }
+    50% {
+        background-image: url(images/js.png);
+    }
+    75% {
+        background-image: url(images/python.jpeg);
+    }
+    100% {
+        background-image: url(images/java.png);
+    }
+   
+}
+.box {
+    height: 100px;
+    width: 680px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 8px;
+    background: linear-gradient(grey, white);
+    color: black;
+    margin-left: 100px;
+    box-shadow: 0 15px 25px black;
+    margin-top: 400px;
+    font-weight: bold;
+    font-family: sans-serif;
+ 
+}
+
+.me img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+.myself img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.myinfo {
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+    background: none;
+    height: 25px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+    box-shadow: 0px 15px 25px  black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.myinfo a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+

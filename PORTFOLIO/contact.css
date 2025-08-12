@@ -1,0 +1,80 @@
+.back {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.back:hover {
+  color: white;
+}
+
+body {
+  background: linear-gradient(black, white);
+  background-repeat: no-repeat;
+}
+.div1 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.div1 h3 {
+  margin-left: 110px;
+  margin-top: 40px;
+}
+.div2 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.div2 h3 {
+  margin-left: 110px;
+  margin-top: 40px;
+}
+.div3 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.div3 h3 {
+  margin-left: 110px;
+  margin-top: 40px;
+}
+.div4 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.div4 h3 {
+  margin-left: 110px;
+  margin-top: 40px;
+}
+
+.contact {
+  margin-left: 150px;
+  color: blue;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 16rem;
+  justify-content: stretch;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  to {
+    translate: calc(-5 * 16rem);
+  }
+}
